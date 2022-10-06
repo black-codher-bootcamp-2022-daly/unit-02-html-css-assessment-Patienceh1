@@ -8,6 +8,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: black;
+    font-size: medium;
 }
 .home {
     float: right;
@@ -43,28 +44,30 @@ a {
 }
 .profile-img {
     float: left;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50px;
-    margin: 20px;
+    margin: 10px;
 }
 .profile {
     height: 500px;
     border-radius: 10px;
-    margin: 30px;
-    display: flex;
+    margin: 50px;
+    display: grid;
 }
 
 h1 {font-family: 'Josefin Slab', serif; 
-    font-size: 20px;
-    padding: 28px;
-    color: white;
+    color: black;
+    letter-spacing: 50px;
+    margin: 50px;
+
+
 }
+
 body {
     font-family: 'Josefin Slab', serif;
-    color: white;
-    font-weight: 100;
-    font-size: 14;
+    color: black;
+    font-size: 26px;
 }
 .social-media {
     list-style-type: none;
@@ -85,6 +88,11 @@ body {
 .about-me {
     display: flex;
     flex-direction: row-reverse;
-    
-
+}
+.grid {
+    display: grid;
+    grid-column: inherit;
+}
+.about-me:hover {
+    background-color: white;
 }
