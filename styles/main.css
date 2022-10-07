@@ -50,9 +50,9 @@ a {
     margin: 10px;
 }
 .profile {
-    height: 500px;
+    height: 600px;
     border-radius: 10px;
-    margin: 50px;
+    margin: 33px;
     display: grid;
 }
 
@@ -67,7 +67,7 @@ h1 {font-family: 'Josefin Slab', serif;
 body {
     font-family: 'Josefin Slab', serif;
     color: black;
-    font-size: 26px;
+    font-size: 36px;
 }
 .social-media {
     list-style-type: none;
@@ -95,4 +95,24 @@ body {
 }
 .about-me:hover {
     background-color: white;
+}
+p {
+    justify-items: flex-end;
+    text-align: start;
+}
+.social-media {
+    background-color: rgb(235, 208, 8);
+    font-size: medium;
+}
+.linkedin-icon {
+    height: 30px;
+}
+.github-icon {
+    height: 30px; 
+}
+.email-icon {
+    height: 30px;
+}
+footer {
+    font-size: 3px;
 }
