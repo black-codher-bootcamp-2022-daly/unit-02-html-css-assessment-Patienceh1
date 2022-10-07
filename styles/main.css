@@ -43,13 +43,6 @@ a {
   padding: 15px;
 }
 .profile-img {
-    float: left;
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    margin: 10px;
-}
-.profile {
     height: 600px;
     border-radius: 10px;
     margin: 33px;
@@ -115,4 +108,19 @@ p {
 }
 footer {
     font-size: 3px;
+}
+.projects {
+    font-size: 1px;
+    color: rgb(235, 208, 8);
+}
+@media (min-width:480px) {
+    display{
+display: flex;
+font-size: 16px;
+    }
+}
+@media (min-width: 961px) {
+    body {
+        font-size: 32px;
+    }
 }
