@@ -9,8 +9,15 @@ body {
     overflow: hidden;
     background-color: black;
     font-size: medium;
+    
 }
-.home {
+@media screen and (max-width: 600px) {
+    .home, .about , .contact, .projects1{
+    float: none;
+    width: 100%;
+    }
+}
+.home, .about, .contact, .projects1{
     float: right;
 }
 .home a:hover {
@@ -39,7 +46,7 @@ body {
     background-color: rgb(235, 208, 8);
   }
 a {
-  display: block;
+  display: grid;
   padding: 15px;
 }
 .linkedin-icon {
@@ -59,4 +66,16 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 480px) {
+    .social-media {
+        display: grid;
+        grid-auto-columns: 1;
+        margin-top: 450px;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
 }

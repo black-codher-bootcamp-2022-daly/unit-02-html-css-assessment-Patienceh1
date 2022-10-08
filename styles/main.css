@@ -10,6 +10,12 @@ body {
     background-color: black;
     font-size: medium;
 }
+@media screen and (max-width: 600px) {
+    .home, .about , .contact, .projects1{
+    float: none;
+    width: 100%;
+    }
+}
 .home {
     float: right;
 }
@@ -82,12 +88,16 @@ body {
     display: flex;
     flex-direction: row-reverse;
 }
+@media screen and (max-width: 480px) {
 .grid {
     display: grid;
-    grid-column: inherit;
+    grid-auto-columns: 1;
+    float: left;
+}
 }
 .about-me:hover {
     background-color: white;
+
 }
 p {
     justify-items: flex-end;
@@ -113,14 +123,9 @@ footer {
     font-size: 1px;
     color: rgb(235, 208, 8);
 }
-@media (min-width:480px) {
-    display{
-display: flex;
-font-size: 16px;
-    }
-}
-@media (min-width: 961px) {
+
+@media screen and (max-width: 480px) {
     body {
-        font-size: 32px;
+        font-size: 16px;
     }
 }
