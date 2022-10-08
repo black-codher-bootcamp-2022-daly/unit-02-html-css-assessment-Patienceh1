@@ -67,6 +67,7 @@ body {
     font-family: 'Josefin Slab', serif;
     color: black;
     font-size: 36px;
+    display: inline-block;
 }
 .social-media {
     list-style-type: none;
@@ -128,4 +129,8 @@ footer {
     body {
         font-size: 16px;
     }
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1;
 }
