@@ -166,3 +166,9 @@ h1 {
   .right:hover {
     transform: scale(0.99);
   }
+  @media screen and (max-width: 600px) {
+    .home, .about , .contact, .projects1{
+    float: none;
+    width: 100%;
+    }
+}
