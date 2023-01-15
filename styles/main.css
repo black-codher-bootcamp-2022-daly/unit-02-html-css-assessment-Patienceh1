@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+body {
+    background-color: rgb(235, 208, 8);
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-size: medium;
+}
+@media screen and (max-width: 600px) {
+    .home, .about , .contact, .projects1{
+    float: none;
+    width: 100%;
+    }
+}
+.home {
+    float: right;
+}
+.home a:hover {
+    background-color: rgb(235, 208, 8);
+}
+.about {
+    float: right;
+}
+.about a:hover {
+    background-color: rgb(235, 208, 8);
+    text-decoration: none;
+}
+.projects1 {
+    float: right;
+}
+.projects1 a:hover {
+    background-color: rgb(235, 208, 8);
+}
+.contact {
+    float: right;
+}
+.contact a:hover {
+    background-color:rgb(235, 208, 8);
+}
+.active {
+    background-color: rgb(235, 208, 8);
+  }
+a {
+  display: block;
+  padding: 15px;
+}
+.profile-img {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+
+}
+
+h1 {font-family: 'Josefin Slab', serif; 
+    color: black;
+    letter-spacing: 50px;
+    margin: 50px;
+
+
+}
+
+body {
+    font-family: 'Josefin Slab', serif;
+    color: black;
+    font-size: 27px;
+    display: flex;
+    flex-direction: column;
+}
+.social-media {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #efe7db;
+}
+.linkedin {
+    float: right;
+}
+.github {
+    float: right;
+}
+.email {
+    float: right;
+}
+.about-me {
+    display: flex;
+    flex-direction: row-reverse;
+}
+@media screen and (max-width: 480px) {
+.grid {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+}
+.about-me:hover {
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    transition: 1s;
+}
+p {
+    justify-items: flex-start;
+    text-align: inherit;
+    
+}
+.social-media {
+    background-color: rgb(235, 208, 8);
+    font-size: medium;
+}
+.linkedin-icon {
+    height: 30px;
+}
+.github-icon {
+    height: 30px; 
+}
+.email-icon {
+    height: 30px;
+}
+footer {
+    font-size: 3px;
+}
+.projects {
+    font-size: 1px;
+    color: rgb(235, 208, 8);
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 26px;
+    }
+}
