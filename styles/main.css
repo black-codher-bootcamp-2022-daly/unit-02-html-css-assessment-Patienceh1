@@ -68,7 +68,7 @@ h1 {font-family: 'Josefin Slab', serif;
 body {
     font-family: 'Josefin Slab', serif;
     color: black;
-    font-size: 36px;
+    font-size: 27px;
     display: flex;
     flex-direction: column;
 }
